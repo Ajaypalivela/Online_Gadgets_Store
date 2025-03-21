@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		
+		body {
+    background-image: url('https://i.pinimg.com/564x/59/92/45/599245fdb762c76e2347333bdb668b1f.jpg'); /* Replace with your image path */
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+     background-size: cover; 
+     font-family: Arial, sans-serif;
+    color:#551A8B;/* Text color */
+     }
+     
+    .form{
+		display: flex;
+		flex-direction:column ;
+		height: 800px;
+		width: 500px;
+		border: 1px sold black;
+		align-items: center;
+		margin: auto;
+		margin-top: 50px;
+		background-color:deeppink;
+		box-shadow: inset -5px -5px rgba(0,0,0,0.5) ;
+		border-radius: 50px;
+		
+	}
+	
+	.form h1{
+		color:deeppink;
+		font-size: 2rem;
+		border-bottom: 4px solid rgba(255,255,255,0.5);
+		margin: 50px;
+	}
+	
+	.box{
+		padding: 12px;
+		margin: 20px;
+		width: 80%;
+		border: none;
+		outline: none;
+		border-radius: 50px;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-size: 2rem;
+	}
+	
+	#submit{
+		padding:10px 20px ;
+		margin-top: 50px;
+		width: 50%;
+		background-color: rgba(0,0,0,0.5);
+		box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+		color: white;
+		border:none;
+		outline: none;
+		border-radius: 20px;
+		font-size: 2rem;
+	}
+	#submit:hover{
+		cursor: pointer;
+		background-color: rgba(255,255,255,0.1);
+		color: white;
+		
+	}
+	::placeholder{
+		color: white;
+	}
+     </style>
+	
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <center><h1>
+	  <form action="aps" method="post" class="form"><br><br>
+		  Product Code <input type="text" name="pcode" class="box">
+		  Product Name <input type="text" name="pname" class="box">
+		  Product Company <input type="text" name="pcompany" class="box">
+		  Product Price <input type="text" name="pprice" class="box">
+		  Product Quantity <input type="text" name="pqty" class="box">
+		  
+		  <input type="submit" value="Add Product" id="submit">
+	  </form>
+	  
+  </h1></center>
+</body>
+</html>

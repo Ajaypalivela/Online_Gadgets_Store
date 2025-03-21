@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		
+		body {
+    background-image: url('https://i.pinimg.com/736x/be/7d/af/be7daf4c8336d84b6b98f19f3014ca86.jpg'); /* Replace with your image path */
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+     background-size: cover; 
+     font-family: Arial, sans-serif;
+    color:deeppink;/* Text color */
+     }
+     
+    .form{
+		display: flex;
+		flex-direction:column ;
+		height: 1100px;
+		width: 500px;
+		border: 2px sold rgb(255, 255, 255);
+		align-items: center;
+		margin: auto;
+		margin-top: 20px;
+		background-color:#551A8B;
+		box-shadow: inset -5px -5px rgba(0,0,0,0.5) ;
+		border-radius: 50px;
+		color: white;
+	}
+	
+	.form h1{
+		color:#551A8B;
+		font-size: 2rem;
+		border-bottom: 4px solid rgba(255,255,255,0.5);
+		margin: 50px;
+	}
+	
+	.box{
+		padding: 12px;
+		margin: 20px;
+		width: 80%;
+		border: none;
+		outline: none;
+		border-radius: 50px;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-size: 2rem;
+	}
+	
+	#submit{
+		padding:10px 20px ;
+		margin-top: 50px;
+		width: 50%;
+		background-color: rgba(0,0,0,0.5);
+		box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+		color: white;
+		border:none;
+		outline: none;
+		border-radius: 20px;
+		font-size: 2rem;
+	}
+	#submit:hover{
+		cursor: pointer;
+		background-color: rgba(255,255,255,0.1);
+		color: white;
+		
+	}
+	::placeholder{
+		color: white;
+	}
+     </style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+       <center><h1>
+	    <form action="cr" method="post" class="form">
+		 UserName <input type="text" name="cname" class="form"><br><br>
+		 Password <input type="password" name="cpwd" class="form"><br><br>
+		 FirstName <input type="text" name="cfname" class="form"><br><br>
+		 LastName <input type="text" name="clname" class="form"><br><br>
+		 Address <input type="text" name="caddr" class="form"><br><br>
+		 Mail_id <input type="text" name="cmail" class="form"><br><br>
+		 Phone <input type="text" name="cphn" class="form"><br><br>
+		  
+		  <input type="submit" value="Register" id="submit">
+	  </form>
+	  
+	  
+ 
+</body>
+</html>

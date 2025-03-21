@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Online_Gadgets_Store</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>AddProduct.jsp</welcome-file>
+    <welcome-file>AddProduct.html</welcome-file>
+    <welcome-file>AdminLogin.html</welcome-file>
+    <welcome-file>BuyProduct.jsp</welcome-file>
+    <welcome-file>AdminHome.jsp</welcome-file>
+    <welcome-file>CustomerHome.jsp</welcome-file>
+    <welcome-file>CustomerLogin.jsp</welcome-file>
+    <welcome-file>CustomerRegister.html</welcome-file>
+    <welcome-file>DeleteProduct.jsp</welcome-file>
+    <welcome-file>EditProduct.jsp</welcome-file>
+    <welcome-file>Logout.jsp</welcome-file>
+    <welcome-file>OrderConfirm.jsp</welcome-file>
+    <welcome-file>Register.jsp</welcome-file>
+    <welcome-file>UpdateProduct.jsp</welcome-file>
+     <welcome-file>ViewCustomerProduct.jsp</welcome-file>
+     <welcome-file>ViewProduct.jsp</welcome-file>   
+  </welcome-file-list>
+</web-app>
